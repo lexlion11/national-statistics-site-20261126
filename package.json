@@ -1,0 +1,16 @@
+{
+  "name": "national-statistics-site-20261126",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tōkei Atlas: an offline static explorer for Japan's national statistics, with sourced figures, hand-written SVG charts and a sortable data table.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "serve": "node serve.ts",
+    "build": "node main.ts",
+    "check": "node --check main.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  }
+}

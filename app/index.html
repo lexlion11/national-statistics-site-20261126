@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tōkei Atlas — Japan's national statistics, explorable</title>
+<meta name="description" content="Tōkei Atlas is an offline, dependency-free explorer for Japan's national statistics: population, economy, prices, jobs, health, education, energy and regional figures, each with its source and year.">
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABSUlEQVR42u2bQQ6CMBBF28Z7eAK3LjyaruVoLNx6Ak6iC0OiDaUt4Pwy82dNSd77f0hIwLuKOV6uL7eDGfrOl17rtUAvlRE0w5cweK3gpW0IVuBTbMEKfIoxOOMTLKU/xRqswccSuALWBXiL9WcDKIACKIACKOAzh7U3eN4e2WtO93Oz9xdpQAnElue4Ai0KqE1TIn02QFpAaapS6bMBCAG5dCXThzUgBSkNzxVACojTRqTPBqAFjKmj0mcDWhCATF9EwJpX1S3ON9GApRD/huczQFJAbZoS6Ys3oBRKCp4rgBCQS1cyfTYAJSCVsnT60AbEsAh4rgBawJg6Kv0mGoCE5wo4fiPEBlAABVCAcQE1Pxhpm6HvPBtAAa7uPztN9f9pgCUJ36xcgZQZC+lPNkCzhCm2WVgtb4pzoYalBzXAZxuw10bUBPcGDB95TBWNusMAAAAASUVORK5CYII=" type="image/png">
+<link rel="stylesheet" href="styles/base.css">
+<link rel="stylesheet" href="styles/views.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" id="site-header">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">統</span>
+    <span class="brand-text">
+      <strong>Tōkei Atlas</strong>
+      <small>Japan's national statistics, explorable</small>
+    </span>
+  </div>
+  <nav class="site-nav" id="site-nav" aria-label="Primary"></nav>
+  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+</header>
+
+<main id="main" tabindex="-1">
+  <div id="app" class="app-root" aria-live="polite">
+    <p class="loading">Loading Tōkei Atlas…</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <p class="footer-brand"><strong>Tōkei Atlas</strong> — an original, self-contained statistics explorer. Every figure on this site carries its publisher and the year it refers to.</p>
+    <nav class="footer-links" id="footer-links" aria-label="Footer"></nav>
+  </div>
+  <p class="footer-note">Compiled 26 November 2026 from the World Bank, UN DESA, OECD, IEA and Japan's official statistics. Figures are rounded for display; see <a href="#/sources">Sources &amp; method</a> and <a href="#/glossary">Glossary</a> for details.</p>
+</footer>
+</body>
+</html>

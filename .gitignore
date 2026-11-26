@@ -1,0 +1,13 @@
+node_modules/
+out/
+out1/
+out2/
+build/
+dist/
+transcripts.tar.gz
+prompt.txt
+system-prompt.txt
+TASK.md
+notes/
+.DS_Store
+*.log
